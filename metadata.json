@@ -1,0 +1,20 @@
+{
+  "name": "wilrnh-xserver",
+  "version": "0.1.0",
+  "author": "wilrnh",
+  "summary": "Puppet module to manage the installation and configuration of the X.Org X Server",
+  "license": "Apache 2.0",
+  "source": "https://github.com/wilrnh/puppet-xserver",
+  "project_page": "https://github.com/wilrnh/puppet-xserver",
+  "issues_url": "https://github.com/wilrnh/puppet-xserver/issues",
+  "operatingsystem_support": [
+    {
+    "operatingsystem": "Ubuntu",
+    "operatingsystemrelease": [ "14.04"]
+    }
+   ],
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"puppetlabs-concat","version_requirement":">= 1.0.0"}
+  ]
+}

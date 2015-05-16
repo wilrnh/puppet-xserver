@@ -1,0 +1,22 @@
+Section "<%= @section_name %>"
+<%- @section_entries.each do |entry| -%>
+<%- if entry.is_a?(String) -%>
+  <%= entry %>
+<%- end -%>
+<%-
+if entry.is_a?(Hash)
+  entry.each do |subsection_name, subsection_entries|
+-%>
+  SubSection "<%= subsection_name %>"
+  <%- subsection_entries.each do |subsection_entry| -%>
+  <%- if subsection_entry.is_a?(String) -%>
+    <%= subsection_entry %>
+  <%- end -%>
+  <%- end -%>
+  EndSubSection
+<%-
+  end
+end
+-%>
+<%- end -%>
+EndSection
