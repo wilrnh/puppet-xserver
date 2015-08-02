@@ -11,6 +11,14 @@
     {
     "operatingsystem": "Ubuntu",
     "operatingsystemrelease": [ "14.04"]
+    },
+    {
+    "operatingsystem": "RedHat",
+    "operatingsystemrelease": ["5", "6", "7"],
+    },
+    {
+    "operatingsystem": "CentOS",
+    "operatingsystemrelease": ["5", "6", "7"],
     }
    ],
   "dependencies": [
