@@ -82,7 +82,7 @@ xserver::section{'Layout0':
 
 ## Limitations
 
-This module currenly only supports Ubuntu Trusty.
+This module supports Ubuntu Trusty, RHEL 5, 6 and 7, and CentOS 5, 6 and 7.
 
 ## Development
 
